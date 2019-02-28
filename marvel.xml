@@ -1,0 +1,330 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Marvel>
+   <element>
+      <heroes>
+         <character>
+            <hero>Spider-Man</hero>
+            <link>http://marvel.com/characters/54/spider-man</link>
+            <name>Peter Benjamin Parker</name>
+            <size>40000</size>
+         </character>
+         <character>
+            <hero>CAPTAIN MARVEL</hero>
+            <link>http://marvel.com/characters/9/captain_marvel</link>
+            <name>Carol Danvers</name>
+            <size>40000</size>
+         </character>
+         <character>
+            <hero>HULK</hero>
+            <link>http://marvel.com/characters/25/hulk</link>
+            <name>Robert Bruce Banner</name>
+            <size>40000</size>
+         </character>
+         <character>
+            <hero>Black Widow</hero>
+            <link>http://marvel.com/characters/6/black_widow</link>
+            <name>Natalia 'Natasha' Alianovna Romanova</name>
+            <size>40000</size>
+         </character>
+         <character>
+            <hero>Daredevil</hero>
+            <link>http://marvel.com/characters/11/daredevil</link>
+            <name>Matthew Michael Murdock</name>
+            <size>40000</size>
+         </character>
+         <character>
+            <hero>Wolverine</hero>
+            <link>http://marvel.com/characters/66/wolverine</link>
+            <name>James Howlett</name>
+            <size>40000</size>
+         </character>
+         <character>
+            <hero>Captain America</hero>
+            <link>http://marvel.com/characters/8/captain_america</link>
+            <name>Steven Rogers</name>
+            <size>40000</size>
+         </character>
+         <character>
+            <hero>Iron Man</hero>
+            <link>http://marvel.com/characters/29/iron_man</link>
+            <name>Anthony Edward 'Tony' Stark</name>
+            <size>40000</size>
+         </character>
+         <character>
+            <hero>THOR</hero>
+            <link>http://marvel.com/characters/60/thor</link>
+            <name>Thor Odinson</name>
+            <size>40000</size>
+         </character>
+         <character>
+            <hero>Jean Grey</hero>
+            <link>https://www.marvel.com/characters/phoenix-jean-grey</link>
+            <name>Jean Grey</name>
+            <size>40000</size>
+         </character>
+         <character>
+            <hero>Cyclops</hero>
+            <link>https://www.marvel.com/characters/cyclops-scott-summers</link>
+            <name>Scott Summers</name>
+            <size>40000</size>
+         </character>
+         <character>
+            <hero>Profesor X</hero>
+            <link>https://www.marvel.com/characters/charles-xavier-house-of-m</link>
+            <name>Charles xavier</name>
+            <size>40000</size>
+         </character>
+         <character>
+            <hero>Storm</hero>
+            <link>https://www.marvel.com/characters/storm-age-of-apocalypse</link>
+            <name>Ororo Munroe</name>
+            <size>40000</size>
+         </character>
+         <character>
+            <hero>Ojo de Halcon</hero>
+            <link>https://www.marvel.com/characters/hawkeye-clint-barton</link>
+            <name>Clint Burton</name>
+            <size>40000</size>
+         </character>
+         <character>
+            <hero>Ojo de Halcon</hero>
+            <link>https://www.marvel.com/characters/hawkeye-clint-barton</link>
+            <name>Clint Burton</name>
+            <size>40000</size>
+         </character>
+         <character>
+            <hero>Starlord</hero>
+            <link>https://www.marvel.com/characters/star-lord-peter-quill</link>
+            <name>Peter Quill</name>
+            <size>40000</size>
+         </character>
+         <character>
+            <hero>Gamora</hero>
+            <link>https://www.marvel.com/characters/gamora</link>
+            <name>Gamora</name>
+            <size>40000</size>
+         </character>
+         <character>
+            <hero>Groot</hero>
+            <link>https://www.marvel.com/characters/groot</link>
+            <name>Groot</name>
+            <size>40000</size>
+         </character>
+         <character>
+            <hero>Rocket</hero>
+            <link>https://www.marvel.com/characters/rocket</link>
+            <name>Rocket Racoon</name>
+            <size>40000</size>
+         </character>
+         <character>
+            <hero>Mantis</hero>
+            <link>https://www.marvel.com/characters/mantis</link>
+            <name>Mantis</name>
+            <size>40000</size>
+         </character>
+         <character>
+            <hero>Black Bolt</hero>
+            <link>https://www.marvel.com/characters/black-bolt-ultimate</link>
+            <name>Black Bolt</name>
+            <size>40000</size>
+         </character>
+         <character>
+            <hero>Crystal</hero>
+            <link>https://www.marvel.com/characters/crystal</link>
+            <name>Crystal</name>
+            <size>40000</size>
+         </character>
+         <character>
+            <hero>Medusa</hero>
+            <link>https://www.marvel.com/characters/medusa</link>
+            <name>Medusa</name>
+            <size>40000</size>
+         </character>
+         <character>
+            <hero>Triton</hero>
+            <link>https://www.marvel.com/characters/triton</link>
+            <name>Triton</name>
+            <size>40000</size>
+         </character>
+         <character>
+            <hero>Mr. Fantastico</hero>
+            <link>https://www.marvel.com/characters/mister-fantastic-2006-animated</link>
+            <name>Reed Richards</name>
+            <size>40000</size>
+         </character>
+         <character>
+            <hero>Chica Invisible</hero>
+            <link>https://www.marvel.com/characters/invisible-woman-2006-animated</link>
+            <name>Susan Storm</name>
+            <size>40000</size>
+         </character>
+         <character>
+            <hero>La cosa</hero>
+            <link>https://www.marvel.com/characters/thing-2006-animated</link>
+            <name>Ben Grimm</name>
+            <size>40000</size>
+         </character>
+         <character>
+            <hero>La antorcha humana</hero>
+            <link>https://www.marvel.com/characters/human-torch-2006-animated</link>
+            <name>Jhonny Storm</name>
+            <size>40000</size>
+         </character>
+         <character>
+            <hero>Luke Cage</hero>
+            <link>https://www.marvel.com/characters/luke-cage</link>
+            <name>Carl Lukas</name>
+            <size>40000</size>
+         </character>
+         <character>
+            <hero>Iron Fist</hero>
+            <link>https://www.marvel.com/characters/iron-fist-danny-rand</link>
+            <name>Danny Rand</name>
+            <size>40000</size>
+         </character>
+         <character>
+            <hero>Jessica Jones</hero>
+            <link>https://www.marvel.com/characters/jessica-jones</link>
+            <name>Jessica Jones</name>
+            <size>40000</size>
+         </character>
+      </heroes>
+   </element>
+
+   <element>
+      <Villains>
+         <character>
+            <hero>Dr. Doom</hero>
+            <link>http://marvel.com/characters/13/dr_doom</link>
+            <name>Victor von Doom</name>
+            <enemigo>Fantastic Four</enemigo>
+            <size>40000</size>
+         </character>
+         <character>
+            <hero>Mystique</hero>
+            <link>http://marvel.com/characters/1552/mystique</link>
+            <name>Unrevealed</name>
+            <enemigo>X-Men</enemigo>
+            <size>40000</size>
+         </character>
+         <character>
+            <hero>Red Skull</hero>
+            <link>http://marvel.com/characters/1901/red_skull</link>
+            <name>Johann Shmidt</name>
+            <enemigo>Captain America</enemigo>
+            <size>40000</size>
+         </character>
+         <character>
+            <hero>Ronan</hero>
+            <link>http://marvel.com/characters/49/ronan</link>
+            <name>Ronan</name>
+            <enemigo>Guardians of the galaxy</enemigo>
+            <size>40000</size>
+         </character>
+         <character>
+            <hero>Magneto</hero>
+            <link>http://marvel.com/characters/35/magneto</link>
+            <name>Max Eisenhardt</name>
+            <enemigo>X-Men</enemigo>
+            <size>40000</size>
+         </character>
+         <character>
+            <hero>Thanos</hero>
+            <link>http://marvel.com/characters/58/thanos</link>
+            <name>Thanos</name>
+            <enemigo>Avengers</enemigo>
+            <size>40000</size>
+         </character>
+         <character>
+            <hero>Black Cat</hero>
+            <link>http://marvel.com/characters/271/black_cat</link>
+            <name>Felicia Hardy</name>
+            <enemigo>Spider-Man</enemigo>
+            <size>40000</size>
+         </character>
+         <character>
+            <hero>Galactus</hero>
+            <link>https://www.marvel.com/characters/galactus</link>
+            <name>Galactus</name>
+            <enemigo>Fantastic Four</enemigo>
+            <size>40000</size>
+         </character>
+         <character>
+            <hero>Venom</hero>
+            <link>https://www.marvel.com/characters/galactus</link>
+            <name>Eddie Brock</name>
+            <enemigo>Spider-Man</enemigo>
+            <size>40000</size>
+         </character>
+         <character>
+            <hero>Baron Zemo</hero>
+            <link>https://www.marvel.com/characters/baron-zemo-heinrich-zemo</link>
+            <name>Baron Heinrich Zemo</name>
+            <enemigo>Captain America</enemigo>
+            <size>40000</size>
+         </character>
+         <character>
+            <hero>Elektra</hero>
+            <link>https://www.marvel.com/characters/elektra</link>
+            <name>Elektra Natchios</name>
+            <enemigo>Defenders</enemigo>
+            <size>40000</size>
+         </character>
+         <character>
+            <hero>Bullseye</hero>
+            <link>https://www.marvel.com/characters/bullseye</link>
+            <name>Benjamin Poindexter</name>
+            <enemigo>Daredevil</enemigo>
+            <size>40000</size>
+         </character>
+         <character>
+            <hero>Mandarin</hero>
+            <link>https://www.marvel.com/characters/mandarin</link>
+            <name>Born circa</name>
+            <enemigo>Iron Man</enemigo>
+            <size>40000</size>
+         </character>
+      </Villains>
+   </element>
+
+   <element>
+      <Teams>
+         <team>
+            <name>Avengers</name>
+            <link>http://marvel.com/characters/68/avengers</link>
+            <integrers miembros="Spider-Man" "Iron Man" "Captain America" "Black Widow" "HULK" "THOR" "Ojo de halcon" "CAPTAIN MARVEL"/>
+            <size>40000</size>
+         </team>
+         <team>
+            <name>Guardians of the Galaxy</name>
+            <link>http://marvel.com/characters/70/guardians_of_the_galaxy</link>
+            <integrers miembros="Star-lord" "Gamora" "Groot" "Rocket" "Drax" "Mantis"/>
+            <size>40000</size>
+         </team>
+         <team>
+            <name>Defenders</name>
+            <link>http://marvel.com/characters/534/defenders</link>
+            <integrers miembros="Daredevil" "Jessica Jones" "Luke Cage" "Iron fist"/>
+            <size>40000</size>
+         </team>
+         <team>
+            <name>X-Men</name>
+            <link>http://marvel.com/characters/71/x-men</link>
+            <integrers miembros="Wolverine" "Cyclops" "Jean Grey" "Storm" "Profesor X"/>
+            <size>40000</size>
+         </team>
+         <team>
+            <name>Fantastic Four</name>
+            <link>http://marvel.com/characters/69/fantastic_four</link>
+            <integrers miembros="Chica Invisible" "Mr. Fantastico" "La cosa" "La antorcha humana"/>
+            <size>40000</size>
+         </team>
+         <team>
+            <name>Inhumans</name>
+            <link>http://marvel.com/characters/1040/inhumans</link>
+            <integrers miembros="Black Bolt" "Medusa" "Crystal" "Triton"/>
+            <size>40000</size>
+         </team>
+      </Teams>
+   </element>
+</Marvel>
