@@ -292,37 +292,37 @@
          <team>
             <name>Avengers</name>
             <link>http://marvel.com/characters/68/avengers</link>
-            <integrers miembros="Spider-Man" "Iron Man" "Captain America" "Black Widow" "HULK" "THOR" "Ojo de halcon" "CAPTAIN MARVEL"/>
+            <integrers miembros="Spider-Man,Iron Man,Captain America,Black Widow,HULK,THOR,Ojo de halcon,CAPTAIN MARVEL"/>
             <size>40000</size>
          </team>
          <team>
             <name>Guardians of the Galaxy</name>
             <link>http://marvel.com/characters/70/guardians_of_the_galaxy</link>
-            <integrers miembros="Star-lord" "Gamora" "Groot" "Rocket" "Drax" "Mantis"/>
+            <integrers miembros="Star-lord,Gamora,Groot,Rocket,Drax,Mantis"/>
             <size>40000</size>
          </team>
          <team>
             <name>Defenders</name>
             <link>http://marvel.com/characters/534/defenders</link>
-            <integrers miembros="Daredevil" "Jessica Jones" "Luke Cage" "Iron fist"/>
+            <integrers miembros="Daredevil,Jessica Jones,Luke Cage,Iron fist"/>
             <size>40000</size>
          </team>
          <team>
             <name>X-Men</name>
             <link>http://marvel.com/characters/71/x-men</link>
-            <integrers miembros="Wolverine" "Cyclops" "Jean Grey" "Storm" "Profesor X"/>
+            <integrers miembros="Wolverine,Cyclops,Jean Grey,Storm,Profesor X"/>
             <size>40000</size>
          </team>
          <team>
             <name>Fantastic Four</name>
             <link>http://marvel.com/characters/69/fantastic_four</link>
-            <integrers miembros="Chica Invisible" "Mr. Fantastico" "La cosa" "La antorcha humana"/>
+            <integrers miembros="Chica Invisible,Mr. Fantastico,La cosa,La antorcha humana"/>
             <size>40000</size>
          </team>
          <team>
             <name>Inhumans</name>
             <link>http://marvel.com/characters/1040/inhumans</link>
-            <integrers miembros="Black Bolt" "Medusa" "Crystal" "Triton"/>
+            <integrers miembros="Black Bolt,Medusa,Crystal,Triton"/>
             <size>40000</size>
          </team>
       </Teams>
