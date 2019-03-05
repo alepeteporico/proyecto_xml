@@ -23,7 +23,10 @@ while True:
     print("6.Salir")
     print("================================================================================")
     elec=int(input("Elige una opción: "))
-    if elec==1:
+    if elec==6:
+        break
+  
+    elif elec==1:
         ejer1(doc)
         print("=============================")
         intro=input("Pulsa enter para continuar")
@@ -31,6 +34,5 @@ while True:
     
     elif elec==2:
         equipo=input("¿Qué equipo eliges? ")
-        heroes=doc.xpath("/Marvel/element/Teams/team/name/text(%c)/integrers",(equipo))
-    elif elec==6:
-        break
+        heroes=doc.xpath("/Marvel/element/Teams/team[name='{}']/integrers/@miembros".format(equipo))
+        print(heroes)

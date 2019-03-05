@@ -1,7 +1,7 @@
 # proyecto_xml
 **Preguntas xml**
 
-1. listar los nombres de héroes, villanos o equipos a nuestra elección, si son héroes o villanos también muestra su nombre real.
+1. listar los nombres de héroes, villanos o equipos a nuestra elección.
 
 2. Contar cuantos héroes forman un equipo a nuestra elección.
 
