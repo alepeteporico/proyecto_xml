@@ -63,4 +63,23 @@ while True:
     
     elif elec==4:
         villano=input("¿Que villano eliges? ")
-        enemigo=doc.xpath("/Marvel/element/Villains/character[hero={}]/enemigo/text()".format(villano))
+        enemigo=doc.xpath("/Marvel/element/Villains/character[hero='{}']/enemigo/text()".format(villano))
+
+        lista1=doc.xpath("/Marvel/element/heroes/character/hero/text()")
+        lista2=doc.xpath("/Marvel/element/Teams/team/name/text()")
+
+        if enemigo[0] in lista1:
+            nombre=doc.xpath("/Marvel/element/heroes/character[hero='{}']/name/text()".format(enemigo[0]))
+            print("Su mayor enemigo es {} álias {}".format(enemigo[0],nombre[0]))
+        elif enemigo[0] in lista2:
+            heroes=doc.xpath("/Marvel/element/Teams/team[name='{}']/integrers/@miembros".format(enemigo[0]))
+            lista=heroes[0].split(",")
+
+            print("Su mayor enemigo son los {} quienes integran a:".format(enemigo[0]))
+
+            for heroe in lista:
+                print("-",heroe)
+            
+        print("-----------------------------")
+        intro=input("Pulsa enter para continuar")
+        print("")
