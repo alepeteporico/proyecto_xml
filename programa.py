@@ -20,6 +20,15 @@ def ejer2 (doc):
     print(len(lista),"héroes conforman este equipo")
     print("")
 
+def ejer3 (doc):
+    equipo=input("¿Qué equipo eliges? ")
+    heroes=doc.xpath("/Marvel/element/Teams/team[name='{}']/integrers/@miembros".format(equipo))
+    lista=heroes[0].split(",")
+    print("el equipo {} lo conforman:".format(equipo))
+    for heroe in lista:
+        print("-",heroe)
+    print("")
+
 while True:
     print("================================================================================")
     print("1.Listar los nombres de héroes, villanos o equipos a nuestra elección.")
@@ -42,6 +51,12 @@ while True:
     
     elif elec==2:
         ejer2(doc)
+        print("-----------------------------")
+        intro=input("Pulsa enter para continuar")
+        print("")
+    
+    elif elec==3:
+        ejer3(doc)
         print("-----------------------------")
         intro=input("Pulsa enter para continuar")
         print("")
