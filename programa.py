@@ -1,3 +1,4 @@
+import webbrowser
 from lxml import etree
 doc=etree.parse('marvel.xml')
 
@@ -49,6 +50,25 @@ def ejer4 (doc):
             print("-",heroe)
     print("")
 
+def ejer5 (doc):
+    elemento=input("¿Qué biografía deseas? ")
+
+    lista1=doc.xpath("/Marvel/element/heroes/character/hero/text()")
+    lista2=doc.xpath("/Marvel/element/Villains/character/hero/text()")
+    lista3=doc.xpath("/Marvel/element/Teams/team/name/text()")
+
+    if elemento in lista1:
+        link=doc.xpath("/Marvel/element/heroes/character[hero='{}']/link/text()".format(elemento))
+    
+    elif elemento in lista2:
+        link=doc.xpath("/Marvel/element/Villains/character[hero='{}']/link/text()".format(elemento))
+    
+    elif elemento in lista3:
+        link=doc.xpath("/Marvel/element/Teams/team[name='{}']/link/text()".format(elemento))
+
+    webbrowser.open('{}'.format(link[0]))
+    print("")
+
 while True:
     print("================================================================================")
     print("1.Listar los nombres de héroes, villanos o equipos a nuestra elección.")
@@ -83,6 +103,12 @@ while True:
     
     elif elec==4:
         ejer4(doc)    
+        print("-----------------------------")
+        intro=input("Pulsa enter para continuar")
+        print("")
+    
+    elif elec==5:
+        ejer5(doc)
         print("-----------------------------")
         intro=input("Pulsa enter para continuar")
         print("")
