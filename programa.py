@@ -60,3 +60,7 @@ while True:
         print("-----------------------------")
         intro=input("Pulsa enter para continuar")
         print("")
+    
+    elif elec==4:
+        villano=input("¿Que villano eliges? ")
+        enemigo=doc.xpath("/Marvel/element/Villains/character[hero={}]/enemigo/text()".format(villano))
