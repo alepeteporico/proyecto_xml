@@ -11,7 +11,14 @@ def ejer1(doc):
         lista=doc.xpath("/Marvel/element/Teams/team/name/text()")
     for nombre in lista:
         print("-",nombre)
+    print("")
 
+def ejer2 (doc):
+    equipo=input("¿Qué equipo eliges? ")
+    heroes=doc.xpath("/Marvel/element/Teams/team[name='{}']/integrers/@miembros".format(equipo))
+    lista=heroes[0].split(",")
+    print(len(lista),"héroes conforman este equipo")
+    print("")
 
 while True:
     print("================================================================================")
@@ -23,16 +30,18 @@ while True:
     print("6.Salir")
     print("================================================================================")
     elec=int(input("Elige una opción: "))
+    print("")
     if elec==6:
         break
   
     elif elec==1:
         ejer1(doc)
-        print("=============================")
+        print("------------------------------")
         intro=input("Pulsa enter para continuar")
         print("")
     
     elif elec==2:
-        equipo=input("¿Qué equipo eliges? ")
-        heroes=doc.xpath("/Marvel/element/Teams/team[name='{}']/integrers/@miembros".format(equipo))
-        print(heroes)
+        ejer2(doc)
+        print("-----------------------------")
+        intro=input("Pulsa enter para continuar")
+        print("")
