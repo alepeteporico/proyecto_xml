@@ -6,12 +6,21 @@ def ejer1(doc):
     pers=input("¿Qué quieres listar: heroes, villanos o equipos? ")
     if pers=="heroes":
         lista=doc.xpath("/Marvel/element/heroes/character/hero/text()")
+        for nombre in lista:
+            print("-",nombre)
+
     elif pers=="villanos":
         lista=doc.xpath("/Marvel/element/Villains/character/hero/text()")
+        for nombre in lista:
+            print("-",nombre)
+
     elif pers=="equipos":
         lista=doc.xpath("/Marvel/element/Teams/team/name/text()")
-    for nombre in lista:
-        print("-",nombre)
+        for nombre in lista:
+            print("-",nombre)
+    
+    else:
+        print("TIENES QUE ESPECIFICAR HEROES, VILLANOS O EQUIPOS, EN MINISCULAS Y PLURAL.")
     print("")
 
 def ejer2 (doc):
@@ -40,6 +49,7 @@ def ejer4 (doc):
     if enemigo[0] in lista1:
         nombre=doc.xpath("/Marvel/element/heroes/character[hero='{}']/name/text()".format(enemigo[0]))
         print("Su mayor enemigo es {} álias {}".format(enemigo[0],nombre[0]))
+
     elif enemigo[0] in lista2:
         heroes=doc.xpath("/Marvel/element/Teams/team[name='{}']/integrers/@miembros".format(enemigo[0]))
         lista=heroes[0].split(",")
@@ -59,14 +69,20 @@ def ejer5 (doc):
 
     if elemento in lista1:
         link=doc.xpath("/Marvel/element/heroes/character[hero='{}']/link/text()".format(elemento))
+        webbrowser.open('{}'.format(link[0]))
     
     elif elemento in lista2:
         link=doc.xpath("/Marvel/element/Villains/character[hero='{}']/link/text()".format(elemento))
+        webbrowser.open('{}'.format(link[0]))
     
     elif elemento in lista3:
         link=doc.xpath("/Marvel/element/Teams/team[name='{}']/link/text()".format(elemento))
+        webbrowser.open('{}'.format(link[0]))
+    
+    else:
+        print("EL HEROE, VILLANO O EQUIPO NO EXISTE, QUIZÁS ESTE MAL ESCRITO, RECUERDA QUE PUEDES LISTARLOS EN LA OPCIÓN 1.")
 
-    webbrowser.open('{}'.format(link[0]))
+    
     print("")
 
 while True:
@@ -109,6 +125,12 @@ while True:
     
     elif elec==5:
         ejer5(doc)
+        print("-----------------------------")
+        intro=input("Pulsa enter para continuar")
+        print("")
+
+    else:
+        print("EL PARAMETRO INTRODUCIDO NO ESTÁ ESPECIFICADO.")
         print("-----------------------------")
         intro=input("Pulsa enter para continuar")
         print("")
